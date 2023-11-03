@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #800080;
+            color: #F4C2C2;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .candidate {
+            width: calc(33.33% - 20px); /* Three candidates per row with some spacing */
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #D6EAF8;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        .candidate img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 10px;
+            display: block;
+        }
+
+        .candidate h2 {
+            font-size: 24px;
+            margin: 0;
+            color: #055FFC;
+        }
+
+        .candidate p {
+            font-size: 16px;
+            text-align: center;
+            color: #555;
+        }
+
+        /* Custom styles for links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meet our Team - Visionaries!!</h1>
+    </header>
+    <div class="container">
+        <div class="candidate">
+            <img src="https://ashmhadg.s3.amazonaws.com/DSC_5320_063316.jpg" alt="Candidate 1">
+            <h2>Asavari Mhadgut</h2>
+            <p>IT Developer</p>
+            <p>Introduction: Kathak Dancer, Enthusiastic</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="candidate">
+            <img src="https://ashmhadg.s3.amazonaws.com/WhatsApp+Image+2023-09-20+at+16.03.51.jpg" alt="Candidate 2">
+            <h2>Avkash Khandekar</h2>
+            <p>Mechanical Engineer</p>
+            <p>Introduction: Hard working, Polite</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="candidate">
+            <img src="https://ashmhadg.s3.amazonaws.com/Bhagi.jpg" alt="Candidate 1">
+            <h2>Bhagyahsree Bhoir</h2>
+            <p>IT Engineer</p>
+            <p>Scholar, Good at Technology</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="candidate">
+            <img src="https://ashmhadg.s3.amazonaws.com/IMG_20230911_192336.jpg" alt="Candidate 1">
+            <h2>Bhagyashree Somvanshi</h2>
+            <p>Mechanical Engineer</p>
+            <p>Good at Communication, Honest</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="candidate">
+            <img src="https://ashmhadg.s3.amazonaws.com/WhatsApp+Image+2023-09-20+at+18.17.11.jpg" alt="Candidate 1">
+            <h2>Chirag Satpute</h2>
+            <p>IT Engineer</p>
+            <p>Communication leader, Traveller</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <div class="candidate">
+            <img src="https://ashmhadg.s3.amazonaws.com/Untitled.png" alt="Candidate 1">
+            <h2>Darshan Patil</h2>
+            <p>IT Engineer</p>
+            <p>Technical lead, Singer</p>
+            <p><a href="#">Learn More</a></p>
+        </div>
+        <!-- Add more candidate profiles as needed -->
+    </div>
+</body>
+</html>
